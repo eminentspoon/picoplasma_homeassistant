@@ -1,5 +1,5 @@
 # picoplasma_homeassistant
-A HomeAssistant compatible script for the Pimoroni Wireless Plasma kit
+A Home Assistant compatible project for the Pimoroni Wireless Plasma kit
 
 # Overview
 

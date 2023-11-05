@@ -24,7 +24,7 @@ COLOUR_SAT = 99.0
 DEVICE_STATE = True
 
 # Poll frequency to MQTT server
-POLL_FREQUENCY = 15.0
+POLL_FREQUENCY = 600.0
 # Last poll time
 LAST_UPDATE = time.time()
 

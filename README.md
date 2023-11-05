@@ -80,6 +80,10 @@ There are a few pieces of configuration that you can set in the main.py file to 
 - ```DEVICE_STATE``` - This is whether you want the device to be lit when you first power on from no power
 - ```POLL_FREQUENCY``` - This is how frequently you want the device to ping Home Assistant with its state (checks for Wifi connection too as well as refreshing values in Home Assistant)
 
+# Todo
+
+- Probably should get auto-discovery working but I have the visual studio code extension in Home Assistant so it isn't a major issue for the moment!
+
 # Troubleshooting
 
 There are plenty of logging messages output via console if you run with a connected COM port (e.g. run via Thonny hooked up to the Pico) which should hopefully point you in the right direction. If you're cycling white flashing lights, this is failing to connect to Wifi.

@@ -3,7 +3,7 @@ A HomeAssistant compatible script for the Pimoroni Wireless Plasma kit
 
 # Overview
 
-Adds the capability of putting an MQTT supported light to Home Assistant using the [Pimoroni Wireless Plasma]('https://shop.pimoroni.com/products/wireless-plasma-kit') kit. It will be exposed as a light and you can set brightness, hue / sat and state through the UI / automations. Based on the example from Pimoroni and using umqtt.simple for MQTT integration.
+Adds the capability of putting an MQTT supported light to Home Assistant using the [Pimoroni Wireless Plasma](https://shop.pimoroni.com/products/wireless-plasma-kit) kit. It will be exposed as a light and you can set brightness, hue / sat and state through the UI / automations. Based on the example from Pimoroni and using umqtt.simple for MQTT integration.
 
 # Dependencies
 

@@ -1,5 +1,5 @@
 # picoplasma_homeassistant
-A Home Assistant compatible project for the Pimoroni Wireless Plasma kit
+A Home Assistant compatible project for the Pimoroni Wireless Plasma kit (Plasma Stick 2040 W)
 
 # Overview
 

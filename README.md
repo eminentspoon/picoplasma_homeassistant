@@ -48,7 +48,7 @@ COUNTRY = "gb"
 
 # Home Assistant Setup
 
-In order to work with Home Assistant, you will need to add the device to the configuration.yaml on your installation. This should be populated under the ```mqtt:``` section (please note, you'll need to create a new configuration entry if you don't have this already but don't duplicate it, same goes for the ```light:``` section too). This should look like the following (ignoring comments):
+In order to work with Home Assistant, you will need to add the device to the configuration.yaml on your installation. As always, changes to this area should be done carefully so you don't mess up your Home Assistant setup (and always make sure of the 'Check configuration' option under dev tools before reloading the config!). This should be populated under the ```mqtt:``` section (please note, you'll need to create a new configuration entry if you don't have this already but don't duplicate it, same goes for the ```light:``` section too). This should look like the following (ignoring comments):
 
 ```yaml
 mqtt:

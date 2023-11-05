@@ -5,6 +5,12 @@ A Home Assistant compatible project for the Pimoroni Wireless Plasma kit (Plasma
 
 Adds the capability of putting an MQTT supported light to Home Assistant using the [Pimoroni Wireless Plasma](https://shop.pimoroni.com/products/wireless-plasma-kit) kit. It will be exposed as a light and you can set brightness, hue / sat and state through the UI / automations. Based on Plasma Kit example from Pimoroni and using am umqtt client (from (RuiSantosdotmet)[https://github.com/RuiSantosdotme/ESP-MicroPython]) for MQTT integration.
 
+Support from within Home Assistant for:
+
+- State
+- Brightness
+- Color
+
 # Dependencies
 
 - You'll need to be running the Pimoroni Micropython (see store page listed in overview)

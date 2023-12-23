@@ -48,6 +48,8 @@ COUNTRY = "gb"
 
 # Home Assistant Setup
 
+If you don't yet have an MQTT broker configured in Home Assistant, follow the instructions here before modifying the Home Assistant configuration: https://www.home-assistant.io/integrations/mqtt
+
 In order to work with Home Assistant, you will need to add the device to the configuration.yaml on your installation. As always, changes to this area should be done carefully so you don't mess up your Home Assistant setup (and always make sure of the 'Check configuration' option under dev tools before reloading the config!). This should be populated under the ```mqtt:``` section (please note, you'll need to create a new configuration entry if you don't have this already but don't duplicate it, same goes for the ```light:``` section too). This should look like the following (ignoring comments):
 
 ```yaml
@@ -93,3 +95,7 @@ There are a few pieces of configuration that you can set in the main.py file to 
 # Troubleshooting
 
 There are plenty of logging messages output via console if you run with a connected COM port (e.g. run via Thonny hooked up to the Pico) which should hopefully point you in the right direction. If you're cycling white flashing lights, this is failing to connect to Wifi.
+
+"MQTTException: 5" means that your broker expects a user name and password. Check your broker, the default private broker with Home Assistant can use the user identities from Home Assistant or you can create local users.
+
+If it connects and is waiting, and all seems good but nothing happens, double check that you have updated all the names (in particular if you swapped "jar_light" out for another name, search for it in the main.py as well as in your Home Assistant configuration to help find all the spots).

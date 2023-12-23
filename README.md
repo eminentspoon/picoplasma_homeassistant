@@ -25,7 +25,7 @@ Support from within Home Assistant for:
 You will need to create an MQTT_CONFIG.py at the root of your Pico that contains the configuration for your MQTT server. This should look like:
 
 ```python
-MQTT_SERVICE = "my_server_name" # you might need to use IP address if DNS resolution is patchy
+MQTT_SERVER = "my_server_name" # you might need to use IP address if DNS resolution is patchy
 MQTT_PORT = 1883
 MQTT_CLIENTID = "my_client_id"
 ```
